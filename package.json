@@ -1,0 +1,34 @@
+{
+  "name": "pika-web-playground",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Dario Vladovic <d.vladimyr+dev@gmail.com> (https://github.com/vladimyr)",
+  "scripts": {
+    "postinstall": "pika-web",
+    "lint": "eslint .",
+    "start": "http-server -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "backbone": "^1.4.0",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@pika/web": "^0.6.1",
+    "@vladimyr/eslint-config": "^1.1.2",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "http-server": "^0.11.1"
+  },
+  "@pika/web": {
+    "webDependencies": [
+      "backbone"
+    ]
+  }
+}
